@@ -1,0 +1,38 @@
+footer{
+    background: grey;
+    height: 45px;
+    list-style-type: none;
+}
+footer ul{
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+footer ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    margin-left: 7px;
+}
+footer ol{
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+footer ol li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer ol li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
