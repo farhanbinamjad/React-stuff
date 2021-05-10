@@ -1,0 +1,58 @@
+.Dog img{
+    width: 75%;
+    filter: grayscale();
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 100%;
+}
+
+.Dog:hover img{
+    filter: none;
+}
+
+.Dog:hover{
+    top:0px;
+    opacity:100%;
+  }
+  
+ .Dog:nth-child(1){
+      transform:rotate(10deg);
+  }
+  
+.Dog:nth-child(2){
+      transform:rotate(0deg);
+  }
+  
+.Dog:nth-child(3){
+      transform:rotate(-10deg);
+  }
+  
+.Dog:nth-child(4){
+      transform:rotate(20deg);
+  }
+
+.Dog{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+  }
+
+  .underline{
+      text-decoration: none;
+      display: inline-block;
+      line-height: 36px;
+      color: white;
+      border: 4px solid transparent;
+      vertical-align: top;
+      margin: 10px;
+      position: relative;
+      font-size: 1.4rem;
+      letter-spacing: .2em;
+
+  }
+
